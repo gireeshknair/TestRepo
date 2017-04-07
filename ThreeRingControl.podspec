@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   s.author       = "Raywenderlich.com Tutorial Team"
   s.homepage = "https://github.com/gireeshknair/TestRepo"
   s.platform     = :ios
+  s.ios.deployment_target = '8.0'
   
   s.source = { :git => "https://github.com/gireeshknair/TestRepo.git", :tag => "#{s.version}"}
   s.source_files = "ThreeRingControl", "ThreeRingControl/**/*.{h,m,swift}"
